@@ -1,0 +1,190 @@
+/* google font  */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap');
+
+/* defaul css  */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    font-size: 60px;
+    font-weight: 700;
+    color: #000000;
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #000000;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+}
+
+h4 {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000000;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000000;
+}
+
+ul li {
+    display: inline-block;
+    margin: 0px 20px;
+}
+
+
+img {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #3F29CB;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column {
+    width: 33.33%;
+    padding: 60px 0;
+}
+
+.primary-btn {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    background: linear-gradient(304.17deg, #3F29CB 13.52%, #907DFF 95%);
+    padding: 16px 30px;
+    border-radius: 12px;
+    border: none;
+    margin-right: 10px;
+
+}
+
+.secondary-btn {
+    color: #3F29CB;
+    font-size: 20px;
+    font-weight: 600;
+    background: none;
+    padding: 16px 30px;
+    border-radius: 12px;
+    border: 1px solid #3F29CB;
+}
+
+
+
+/* header css start  */
+
+nav ul li a:hover {
+    border-bottom: 2px solid #3F29CB;
+}
+
+/* hero area start  */
+.hero-text {
+    width: 50%;
+}
+
+.hero-text h1 {
+    margin-bottom: 20px;
+}
+
+.hero-text h1 span {
+    color: #3F29CB;
+}
+
+.hero-text p {
+    margin-bottom: 20px;
+}
+
+.hero-text p span {
+    font-weight: 700;
+}
+
+.clients {
+    margin-top: 40px;
+}
+
+.hero-img {
+    width: 50%;
+}
+
+/* feature area start  */
+.column img {
+    margin-bottom: 40px;
+}
+
+.column h4 {
+    margin-bottom: 16px;
+}
+
+/* services area start  */
+.section-heading {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-heading h5 {
+    margin-bottom: 16px;
+}
+
+.section-heading h2 {
+    margin-bottom: 16px;
+}
+
+.services {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 30px;
+}
+
+.single-service {
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 12px;
+}
+
+.single-service img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+.single-service h4 {
+    margin-bottom: 16px;
+}
+
+.service-area {
+    background: radial-gradient(77.01% 352.02% at 84.97% 67.59%, #F7EFFF 0%, rgba(249, 247, 255, 0.49688) 50.31%, rgba(188, 219, 255, 0.1) 100%);
+    padding: 100px 0;
+}
